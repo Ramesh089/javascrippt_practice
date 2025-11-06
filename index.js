@@ -57,3 +57,30 @@ function greet() {
   return "Hello World!";
 }
 console.log(typeof greet, greet()); // function Hello World!
+
+
+// var - function scoped
+var userName = "Ramesh";
+console.log("var:", userName);
+
+// let - block scoped, can be reassigned
+let userAge = 25;
+userAge = 26;
+console.log("let:", userAge);
+
+// const - block scoped, cannot be reassigned
+const userCountry = "India";
+console.log("const:", userCountry);
+
+// Block scope demonstration
+{
+  var a = 10;     // function scoped
+  let b = 20;     // block scoped
+  const c = 30;   // block scoped
+  console.log("Inside block:", a, b, c);
+}
+
+console.log("Outside block:", a);   // ✅ Accessible
+// console.log(b); // ❌ Error
+// console.log(c); // ❌ Error
+

@@ -28,3 +28,20 @@ JavaScript has two main categories of data types:
 
 ---
 
+# 🧠 JavaScript Variable Declarations
+
+In JavaScript, variables are used to **store and manage data**.  
+There are **three main ways** to declare variables:
+
+1. **var**
+2. **let**
+3. **const**
+
+Each has different rules for **scope**, **redeclaration**, and **reassignment**.
+
+---
+
+## 🔹 var
+
+The `var` keyword is the **oldest** way to declare variables (before ES6).
+
