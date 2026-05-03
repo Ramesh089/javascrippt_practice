@@ -1,0 +1,22 @@
+{
+  "name": "javascrippt_practice",
+  "version": "1.0.0",
+  "description": "javascript learnig practices file <br> javascript data Types and variable declaration JavaScript Data Types",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramesh089/javascrippt_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ramesh089/javascrippt_practice/issues"
+  },
+  "homepage": "https://github.com/Ramesh089/javascrippt_practice#readme"
+}
